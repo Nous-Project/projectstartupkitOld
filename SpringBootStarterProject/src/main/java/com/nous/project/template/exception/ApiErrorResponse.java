@@ -1,6 +1,6 @@
 package com.nous.project.template.exception;
 
-public class ApiErrorResponse {
+public class ApiErrorResponse extends Throwable {
 
 	private int status;
 	private int code;
